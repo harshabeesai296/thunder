@@ -1,3 +1,5 @@
+#This code contains string methods available in Python
+
 print("Thunder feel the Thunder!!!! Lightening then the Thunder Thunder!!!")
 
 alpha = "A Male wolf which leads a pack of wolves is called as an Alpha."
