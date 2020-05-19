@@ -1,57 +1,148 @@
-#This code contains string methods available in Python
-
 print("Thunder feel the Thunder!!!! Lightening then the Thunder Thunder!!!")
 
 alpha = "A Male wolf which leads a pack of wolves is called as an Alpha."
 
 # ALL STRING METHODS
 
+# capitalize Method
 mtd1 = alpha.capitalize()
 print(mtd1)
 
+# casefold Method
 mtd2 = alpha.casefold()
 print(mtd2)
 
+# center Method
 mtd3 = alpha.center(70,"|")
 print(mtd3)
 
+# count Method
 mtd4 = alpha.count("al")
 print(mtd4)
 
+# encode Method
 mtd5 = alpha.encode(encoding='UTF-8',errors='strict')
 print(mtd5)
 
+# endwith Method
 mtd6 = alpha.endswith("Alpha.")
 print(mtd6)
 
+# expandtabs Method
 tabstr = "This is a tabexpand\t method\t      example."
 mtd7 = tabstr.expandtabs()
 print(mtd7)
 
+# find Method
 mtd8 = alpha.find("wolf")
 print(mtd8)
 
+# format Method
 alpha1 = "A Male {wolf:.2f} which leads a pack of wolves is called as an Alpha."
 mtd9 = alpha1.format(wolf=1000)
 print(mtd9)
 
+# index Method
 mtd10 = alpha.index("Male")
 print(mtd10)
 
+# isalnum Method
 alpha2 = "80Male"
 mtd11 = alpha2.isalnum()
 print(mtd11)
 
+# isalpha Method
 alpha3 = "alphawolf"
 mtd12 = alpha3.isalpha()
 print(mtd12)
 
+# isinteger Method
 alpha4 = 8.686
 mtd13 = alpha4.is_integer()
 print(mtd13)
 
+# islower Method
 print(alpha3.islower())
 
+# isupper Method
 print(alpha3.isupper())
 
+# istitle Method
 print(alpha.istitle())
+
+# ljust Method
+print(alpha.ljust(73,"|"))
+
+# rjust Method
+print(alpha.rjust(85,"*"))
+
+# join Method
+mytuple = ("Alpha","Wolf")
+mtd14 = "*".join(mytuple)
+print(mtd14)
+
+# lower Method
+mtd15 = alpha.lower()
+print(mtd15)
+
+# lstrip Method
+alpha5 = "             A Male wolf which leads a pack of wolves is called as an Alpha."
+mtd16 = alpha5.lstrip()
+print(mtd16)
+
+# maketrans & translate Method
+intab = "aeiou"
+outtab = "95268"
+mtd17 = alpha.maketrans(intab,outtab)
+print(mtd17)
+print(alpha.translate(mtd17))
+
+# partition Method
+print(alpha.partition("wolf"))
+
+# replace Method
+print(alpha.replace("wolf","wooolf"))
+
+# rfind Method
+print(alpha.rfind("wolf"))
+
+# rindex Method
+print(alpha.rindex("pack"))
+
+# rpartition Method
+print(alpha.rpartition("pack"))
+
+# rsplit method
+print(alpha.rsplit("pack"))
+
+# split Method
+print(alpha.split("pack"))
+
+# rstrip Method
+alpha6 = "  A Male wolf which leads a pack of wolves is called as an Alpha\n It has the power to control                              ."
+print(alpha6.rstrip(""))
+
+# splitlines Method
+alpha7 = "A Male wolf which leads a pack of wolves is called as an Alpha\n It has the power to control."
+print(alpha7.splitlines())
+
+# startswith Method
+print(alpha.startswith("A"))
+
+# strip Method
+alpha8 = "llllllllA Male wolf which leads a pack of wolves is called as an Alpha\n It has the power to controllllllllll"
+print(alpha8.strip("l"))
+
+# swapcase Method
+print(alpha.swapcase())
+
+# title Method
+print(alpha.title())
+
+# upper Method
+print(alpha.upper())
+
+# zfill Method
+print(alpha.zfill(100))
+
+
