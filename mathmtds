@@ -1,0 +1,162 @@
+import math
+# This includes some of the commonly used math methods
+
+# ceil Method
+print(math.ceil(28.6))
+
+# comb Method
+print(math.comb(8,5))
+
+# copysign Method
+print(math.copysign(835,-29))
+
+# fabs Method
+print(math.fabs(-29))
+
+# factorial Method
+print(math.factorial(9))
+
+# floor Method
+print(math.floor(28.6))
+
+# fmod Method
+print(math.fmod(8,5))
+
+# frexp Method
+print(math.frexp(29))
+
+# fsum Method
+numlist = (29,36,85)
+print(math.fsum(numlist))
+
+# gcd Method
+print(math.gcd(85,5))
+
+# isclose Method
+print(math.isclose(8.625,8.626))
+
+# isfinite Method
+print(math.isfinite(86.5254))
+
+# isinf Method
+print(math.isinf(9999999999))
+
+# isnan Method Method
+print(math.isnan(89))
+
+# isqrt Method
+print(math.isqrt(856))
+
+# modf Method
+print(math.modf(85))
+
+# perm Method
+print(math.perm(8,5))
+
+# prod Method
+print(math.prod(numlist))
+
+# remainder Method
+print(math.remainder(9,5))
+
+# truncate Method
+print(math.trunc(85.63))
+
+# exp Method
+print(math.exp(2))
+
+# expm1 Method
+print(math.expm1(2))
+
+# log Method
+print(math.log(25,5))
+
+# logp Method
+print(math.log1p(25))
+
+# log2 Method
+print(math.log2(25))
+
+# log10 Method
+print(math.log10(25))
+
+# acos Method
+print(math.acos(0.5))
+
+# asin Method
+print(math.asin(0.6354))
+
+# atan Method
+print(math.atan(0.83265))
+
+# atan2 Method
+print(math.atan2(0.653,0.789))
+
+#  cos Method
+print(math.sin(89))
+
+# dist Method
+p = (8,6)
+q = (4,2)
+print(math.dist(p,q))
+
+# hypot Method
+#print(math.hypot(p,q))
+
+# sin Method
+print(math.sin(90))
+
+# tan Method
+print(math.tan(90))
+
+# degrees Method
+print(math.degrees(10))
+
+# radians Method
+print(math.radians(572.9577951))
+
+# acosh Method
+print(math.acosh(45))
+
+# asinh Method
+print(math.asinh(45))
+
+# atanh Method
+#print(math.atanh(90))
+
+# cosh Method
+print(math.cosh(45))
+
+# sinh Method
+print(math.sinh(45))
+
+# tanh Method
+print(math.tanh(45))
+
+# erf Method
+print(math.erf(5))
+
+# erfc Method
+print(math.erfc(5))
+
+# gamma Method
+print(math.gamma(5))
+
+# lgamma Method
+print(math.lgamma(5))
+
+# pi Method
+print(math.pi)
+
+# e Method
+print(math.e)
+
+# tau Method
+print(math.tau)
+
+# inf Method
+print(math.inf)
+
+# nan Method
+print(math.nan)
+
