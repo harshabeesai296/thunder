@@ -1,0 +1,58 @@
+# Basic List Methods
+from collections import deque
+
+namelist = ["Alpha","Beta","Gamma","Delta","Zeta"]
+numlist = [25,90,12,49,81,325,6,90]
+mixedlist = ["Wolf","Hyena","Jackal","Vulture","Fox"]
+
+# append Method
+namelist.append("Feta")
+print(namelist)
+
+# extend Method
+namelist.extend(mixedlist)
+print(namelist)
+
+# insert Method
+numlist.insert(4,55)
+print(numlist)
+
+# remove Method
+numlist.remove(90)
+print(numlist)
+
+# pop Method
+print(mixedlist)
+mixedlist.pop(3)
+print(mixedlist)
+mixedlist.pop(1)
+print(mixedlist)
+
+# clear Method
+print(numlist.clear())
+
+# index Method
+print(namelist.index("Alpha"))
+
+# count Method
+print(mixedlist.count("Wolf"))
+
+# sort Method
+#print(mixedlist.sort())
+
+# reverse Method
+#print(namelist.reverse())
+
+# copy Method
+namelist.copy();
+print(namelist)
+
+# list as a queue
+
+queue = deque([8,95,25,100])
+queue.append(98)
+queue.append(55)
+queue.popleft()
+queue.popleft()
+print(queue)
+
